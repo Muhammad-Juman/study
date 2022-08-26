@@ -15,6 +15,7 @@ target/
 .sts4-cache
 .metadata
 .sonarlint
+.class
 
 ### IntelliJ IDEA ###
 .idea
