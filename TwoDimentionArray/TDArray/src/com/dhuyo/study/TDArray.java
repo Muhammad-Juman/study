@@ -1,7 +1,9 @@
 package com.dhuyo.study;
 
 public class TDArray {
-	public static void main(String[] args) {
+	
+	public void printTDArray() {
+		
 		int[][] intArray= new int[4][5];
 		intArray[0][0] = 11;
 		intArray[0][1] = 11;
@@ -35,7 +37,11 @@ public class TDArray {
 			}
 			System.out.println();
 		}
+	}
+	public static void main(String[] args) {
 		
+		TDArray ob = new TDArray();
+		ob.printTDArray();
 		
 
 	}
