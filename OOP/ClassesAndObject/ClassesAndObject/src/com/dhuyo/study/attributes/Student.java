@@ -56,7 +56,6 @@ public class Student {
 	  
 	  shafiqueOb.readBook(shafiqueOb.name);
 	  
-	  
   }	
 
 }

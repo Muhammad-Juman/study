@@ -8,22 +8,23 @@ public class StudentData {
 	String depart="Software Engineering";
 	String homeAddress="Larkana";
 	
-	void bioData() {
+	void bioData1(String name) {
 		System.out.println("Name : "+name);
-		System.out.println("Father Name : "+fatherName);
-		System.out.println("Age : "+age);
-		System.out.println("University : "+uni);
-		System.out.println("Departement : "+depart);
-		System.out.println("Home Address"+homeAddress);
 	}
-	
+	void (String fName) {
+		System.out.println("Father Name : "+fName);
+		
+	}
+	void bioData(String rollNo) {
+		
+	}
 	public static void main(String[] args) {
 		StudentData object=new StudentData();
 		object.name="Babo";
 
-		object.bioData();
+		object.bioData1();
 		System.out.println();
-		object.bioData();
+		object.bioData1();
 
 		
 	}
