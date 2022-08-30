@@ -38,7 +38,7 @@ public class Student {
 	  System.out.println("University "+jumanOb.universityName);
 	  System.out.println("Age "+jumanOb.age);
 	  System.out.println("Departement "+jumanOb.departement);
-	  System.out.println("Qualification "+jumanOb.qualification);
+	  System.out.println("Qualification "+jumanOb.qualification); 
 	
 	  jumanOb.readBook();
 	  jumanOb.readBook(jumanOb.name);

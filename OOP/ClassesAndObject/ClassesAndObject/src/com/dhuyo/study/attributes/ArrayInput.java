@@ -10,8 +10,10 @@ public class ArrayInput {
 				System.out.print("Enter Array Value Row ["+i+"] and Column ["+j+"] : ");
 				array[i][j]=input.nextInt();
 			}
+			
 			System.out.println();
 		}
+		
 		for(int i=0;i<array.length;i++) {
 			for(int j=0;j<array[i].length;j++) {
 				System.out.print(array[i][j]+"  ");
@@ -20,7 +22,8 @@ public class ArrayInput {
 		}
 		
 	}
-public static void main(String[] args) {
+	
+    public static void main(String[] args) {
 	Scanner input=new Scanner(System.in);
 	System.out.print("Enter Row Number : ");
 	int row=input.nextInt();
@@ -31,3 +34,6 @@ public static void main(String[] args) {
 
 }
 }
+
+
+
