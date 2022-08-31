@@ -2,8 +2,8 @@ package com.dhuyo.study.attributes;
 import java.util.Scanner;
 public class ArrayInput {
 
-	void inputArray(int row,int column) {
-		Scanner input=new Scanner(System.in);
+	void inputArray(int row,int column,Scanner input) {
+		
 		int[][] array=new int[row][column];
 		for(int i = 0;i<array.length;i++) {
 			for(int j=0;j<array[i].length;j++) {
@@ -30,7 +30,7 @@ public class ArrayInput {
 	System.out.print("Enter Column Number : ");
 	int column=input.nextInt();
 	ArrayInput object=new ArrayInput();
-	object.inputArray(row, column);
+	object.inputArray(row, column,input);
 
 }
 }
