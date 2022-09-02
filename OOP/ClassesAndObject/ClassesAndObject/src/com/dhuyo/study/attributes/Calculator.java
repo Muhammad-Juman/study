@@ -1,5 +1,4 @@
 package com.dhuyo.study.attributes;
- import java.util.Scanner;
 public class Calculator {
 		int num1=2;
 		int num2=4;
