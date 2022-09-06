@@ -1,4 +1,4 @@
-package com.dhuyo.study.attributes;
+package com.dhuyo.study.Method;
 public class Calculator {
 		int num1=2;
 		int num2=4;

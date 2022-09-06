@@ -1,4 +1,4 @@
-package com.dhuyo.study.attributes;
+package com.dhuyo.study.Constuctor;
 import java.util.Scanner;
 public class StudentInputData {
 void dataInput(String myName,int myAge) {

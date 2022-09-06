@@ -1,4 +1,4 @@
-package com.dhuyo.study.attributes;
+package com.dhuyo.study.Constuctor;
 //import java.utile.Scanner;
 public class StudentDataInConstuctor {
 //Create Constuctor 

@@ -1,4 +1,4 @@
-package com.dhuyo.study;
+package com.dhuyo.study.Method;
 
 public class School {
 

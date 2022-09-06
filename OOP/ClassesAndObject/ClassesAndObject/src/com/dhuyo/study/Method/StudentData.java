@@ -1,4 +1,4 @@
-package com.dhuyo.study.attributes;
+package com.dhuyo.study.Method;
 
 public class StudentData {
 	String name="M.Juman";

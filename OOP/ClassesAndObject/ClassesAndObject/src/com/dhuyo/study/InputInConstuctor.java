@@ -1,4 +1,4 @@
-package com.dhuyo.study.attributes;
+package com.dhuyo.study;
 import java.util.Scanner;
 public class InputInConstuctor {
 //Create a Constuctor With the Help Of object

@@ -1,4 +1,4 @@
-package com.dhuyo.study.attributes;
+package com.dhuyo.study.Method;
 import java.util.Scanner;
 public class ArrayInput {
 
