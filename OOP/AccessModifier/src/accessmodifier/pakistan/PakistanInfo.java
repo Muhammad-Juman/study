@@ -1,4 +1,4 @@
-package access_modifier_pakistan;
+package accessmodifier.pakistan;
 
 public class PakistanInfo {
  //create a main method

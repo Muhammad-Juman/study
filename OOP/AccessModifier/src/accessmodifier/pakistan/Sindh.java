@@ -1,13 +1,16 @@
-package access_modifier_pakistan;
-//create a class name KhyberPaktunkhwa
-public class KhyberPakhtunkhwa{
-	//Instance variable
+package accessmodifier.pakistan;
+
+import non.accessmodifier_static.ClassWithStatic;
+
+//create a class
+public class Sindh {
+//instance variable 
 	private String location="Pakistan";
-	private int area =101741;
-	private String bigCity="Peshawar",produce="Wheat",cheifMinister="Mohammad Khan",
-			population="Peshawar",famousPlace="Mukshpuri Peak";
-	//create a method name khyberPaktunkhwa
-	void khyberPaktunkhwa() {
+	private int area =140914;
+	private String bigCity="Karachi",produce="Agricultural",cheifMinister="Syed Murad Ali Shah",
+			population="Karachi",famousPlace="Mohen Jo Daro";
+	//create a method name sindhInfo
+	void sindhInfo() {
 		System.out.println("Located In "+location);
 		System.out.println("Total Area Is "+area);
 		System.out.println("Big City "+bigCity);
@@ -15,6 +18,10 @@ public class KhyberPakhtunkhwa{
 		System.out.println("Cheif Minister "+cheifMinister);
 		System.out.println("Mostly Population In "+population);
 		System.out.println("Most Famous Place Is "+famousPlace);
-
+		
+		
 	}
+	
+			
+	
 }

@@ -1,4 +1,4 @@
-package access_modifier_pakistan;
+package accessmodifier.pakistan;
 
 public class Balochistan {
 	private String location="Pakistan";

@@ -1,4 +1,4 @@
-package access_modifier_pakistan;
+package accessmodifier.pakistan;
 //create a class name Punjab
 public class Punjab {
 	//instance variable
