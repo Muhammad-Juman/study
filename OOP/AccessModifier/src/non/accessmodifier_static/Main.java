@@ -10,9 +10,10 @@ public class Main {
 		ClassWithStatic.printName();
 		ClassWithStatic.setName("Shafique");
 		ClassWithStatic.printName();
+		System.out.println(ClassWithStatic.name);
 		methodDetails();
 		
-		System.out.println(Math.PI);
+		System.out.println("pi value"+Math.PI);
 		
      
 	}
