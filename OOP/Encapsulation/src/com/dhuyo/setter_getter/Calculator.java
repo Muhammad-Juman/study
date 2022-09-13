@@ -6,6 +6,10 @@ public class Calculator {
 	private int secondNum;
 	private int totalNum;
 
+	Calculator(){
+		this.totalNum=firstNum/secondNum;
+	}
+	
 	public int getFirstNum() {
 		return firstNum;
 	}

@@ -3,7 +3,7 @@ package non.access.modidier_static;
 import java.util.Scanner;
 
 public class CalculatorInputInStaticBlock {
-	static Scanner input = new Scanner(System.in);
+	 static Scanner input = new Scanner(System.in);
 
 	static {
 		System.out.print("Enter First Number : ");
@@ -26,5 +26,6 @@ public class CalculatorInputInStaticBlock {
 	}
 
 	public static void main(String[] args) {
+		System.out.println("Hello");
 	}
 }
