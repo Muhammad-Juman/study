@@ -29,4 +29,5 @@ public class PrintInputData {
 		System.out.println("Roll No : " + ob.getRollNo());
 
 	}
+	
 }

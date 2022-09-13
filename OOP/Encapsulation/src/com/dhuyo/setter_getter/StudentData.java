@@ -70,6 +70,7 @@ public class StudentData {
 
 	public void setDepart(String depart) {
 		departement = depart;
+	
 	}
 
 }

@@ -19,5 +19,7 @@ public class PrintStudentData {
 		System.out.println("University : "+ob.getUniversity());
 		ob.setDepart("Software Engineering");
 		System.out.println("Departement : "+ob.getDepartement());
+	
 	}
+	
 }
