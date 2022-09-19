@@ -17,7 +17,7 @@ public class Departement {
 	}
 
 	public String[] getTeacherData() {
-		return teacherData'
+		return teacherData;
 	}
 
 	public void setTeacherData(String[] teacherData) {
