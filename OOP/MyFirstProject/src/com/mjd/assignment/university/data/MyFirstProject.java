@@ -1,4 +1,4 @@
-package com.dhuyo.first.project;
+package com.mjd.assignment.university.data;
 
 import com.the_mjd.set.data.StudentData;
 import com.the_mjd.set.data.TeacherData;
@@ -29,12 +29,12 @@ public class MyFirstProject {
 			teacherData.setTeacherName(teacherName);
 			teacherDataArray[i][i] = teacherData;
 			
-			for (int j = 0; j < teacherDataArray[i].length; j++) {
-				System.out.print(j + "| Enter Subject Name : ");
-				String subject = input.nextLine();
-				teacherData.setSubject(subject);
-				teacherData.getSubjects();
-			}
+//			for (int j = 0; j < teacherDataArray[i].length; j++) {
+//				System.out.print(j + "| Enter Subject Name : ");
+//				String subject = input.nextLine();
+//				teacherData.setSubject(subject);
+//				teacherData.getSubjects();
+//			}
 			
 			System.out.println();
 		}
