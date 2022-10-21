@@ -5,6 +5,9 @@ public class Vehicle {
 	protected void honk() {
 		System.out.println("Beep,Beep!");
 	}
+	protected void honk(String sound) {
+		System.out.println("Sound from Parent:"+sound);
+	}
 	protected void engine() {
 		System.out.println("This is engine of Vehicle");
 	}
@@ -12,5 +15,7 @@ public class Vehicle {
 	protected void tyres() {
 		System.out.println("This is tyres of Vehicle");
 	}
+	
+	
 
 }
