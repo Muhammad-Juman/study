@@ -2,9 +2,13 @@ package com.dhuyo.interfaces.calculator;
 
 public  interface CalculatorOperators {
 	
-	public abstract void addition();
-	public abstract void subtraction();
-	public abstract void multiply();
-	public abstract void division();
+	public  void addition();
+	public  void subtraction();
+	public  void multiply();
+	public  void division();
+	
+	public default void showMsg() {
+		System.out.println("Hello Default");
+	}
 	
 }
